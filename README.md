@@ -23,19 +23,35 @@ The analysis aims to:
 - Query the RDF data using SPARQL.  
 - Provide interactive visualizations for better data interpretation.  
 
-## Installation & Execution  
+## Cloning the Repository
 
-To replicate the project on your machine:  
+This repository uses **Git LFS** to store large files.  
+Before cloning the repo, make sure Git LFS is installed.  
 
-1. **Clone the repository** using the following command:  
+### Install Git LFS
+If you haven’t installed Git LFS yet, run the following command:
 
-   ```bash
-   git clone https://github.com/El-Giovanni92/vehicle-pollution-analysis.git
-   ```
-2. **Open the main file** [`progetto.ipynb`](progetto.ipynb) in Jupyter Notebook.  
-3. **Download the required datasets** using the links provided within the notebook.  
-4. **Follow the instructions** and **execute the cells sequentially** to reproduce the analysis.  
-5. **Analyze the results**, including interactive visualizations within the notebook.  
+```bash
+git lfs install
+```
+### Clone the repository
+After installing Git LFS, clone the repository normally:
+
+```bash
+git clone https://github.com/tuo-utente/tuo-repository.git
+```
+If necessary, you can manually fetch the large files:
+
+```bash
+git lfs pull  
+```
+
+## Execution
+
+1. **Open the main file** [`progetto.ipynb`](progetto.ipynb) in Jupyter Notebook.  
+2. **Download the required datasets** using the links provided within the notebook.  
+3. **Follow the instructions** and **execute the cells sequentially** to reproduce the analysis.  
+4. **Analyze the results**, including interactive visualizations within the notebook.  
 
 ### Additional Files  
 
