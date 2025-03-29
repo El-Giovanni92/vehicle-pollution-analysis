@@ -38,7 +38,7 @@ git lfs install
 After installing Git LFS, clone the repository normally:
 
 ```bash
-git clone https://github.com/tuo-utente/tuo-repository.git
+git clone https://github.com/El-Giovanni92/vehicle-pollution-analysis.git
 ```
 If necessary, you can manually fetch the large files:
 
