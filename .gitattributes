@@ -1,1 +1,2 @@
-*.ttl filter=lfs diff=lfs merge=lfs -text
+inquinamento.ttl filter=lfs diff=lfs merge=lfs -text
+Circolante-Sicilia.csv filter=lfs diff=lfs merge=lfs -text
